@@ -1,0 +1,10 @@
+.app {
+    background-color: var(--White);
+    width: 90%;
+    margin: 7% 5% 0% 5%;
+    height: 92%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+body{
+    width: 375px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(30, 38%, 92%);
+    display: block;
+   
+}
+
+:root{
+    --Dark_cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very_dark_blue: hsl(212, 21%, 14%);
+    --Dark_grayish_blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --paragraph: 14px;
+    
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    overflow-y: hidden;
+
+}
+#root{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(30, 38%, 92%);
+}
