@@ -1,5 +1,7 @@
 import React, { createFactory } from "react";
-import product_Mobile from "./image-product-mobile.jpg";
+import product_Mobile from "./images/image-product-mobile.jpg";
+import product_Desktop from "./images/image-product-desktop.jpg";
+
 import { BsCart3 } from "react-icons/bs";
 
 import "./index.css"
@@ -7,10 +9,15 @@ function Card(){
     return(
         
         <div className="content-card">
+            <div className="div-content-img-product">
+                <section>
+                <img src={product_Mobile} className="img-product-mobile"></img>
+                <img src={product_Desktop} className="img-product-desktop"></img>
 
-            <section>
-                <img src={product_Mobile} className="img-product"></img>
-            </section>
+                </section>
+            </div>
+           
+            <div className="div-info-product-content">
 
             <section className="section-Info">
                 <p className="p-Perfume-text">
@@ -20,15 +27,15 @@ function Card(){
 
             <section className="section-Info">
                 <h1 className="h1-Card-info">
-                    Grabrielle Essence <br/> Eau De Parfum
+                    Grabrielle Essence Eau De Parfum
                 </h1>
             </section>
             
             <section className="section-Info">
                 <h2 className="text-p-h2">
-                    A floral, solar and voluptuous <br/> 
-                    interpretation composed by oliver <br/>
-                    polge, Perfumer-Creator for the house of <br/> 
+                    A floral, solar and voluptuous  
+                    interpretation composed by olivier 
+                    polge, Perfumer-Creator for the house of  
                     CHANEL.
                 </h2>
             </section>
@@ -52,6 +59,9 @@ function Card(){
                   </div>  
                 </button>
             </section>
+                
+            </div>
+            
         </div>
     )
 }
