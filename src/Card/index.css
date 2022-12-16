@@ -115,6 +115,9 @@
 }
 
 @media (min-width:1280px){
+    html{
+        overflow-y: hidden;
+    }
     .content-card{
         display: inline-flex;
         flex-direction: row;
